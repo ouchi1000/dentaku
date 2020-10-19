@@ -49,7 +49,7 @@ public class DentakuActivity extends AppCompatActivity {
         for (int i = 0; i < 5; ++i) {
             final LinearLayout newLL = new LinearLayout
                     (this.getApplicationContext());
-            newLL.setBackgroundColor(Color.YELLOW);
+            newLL.setBackgroundColor(Color.BLACK);
             newLL.setOrientation(LinearLayout.HORIZONTAL);
             final ViewGroup.LayoutParams newLP =
                     new LinearLayout.LayoutParams(
@@ -61,7 +61,7 @@ public class DentakuActivity extends AppCompatActivity {
                 final Button b = new Button
                         (this.getApplicationContext());
                 //b.setText(i + "," + j);
-                b.setBackgroundColor(Color.RED);
+                b.setBackgroundColor(Color.GRAY);
                 b.setText(buttonTexts[i * 4 + j]);
                 b.setTextSize(22);
                 b.setTextColor(Color.WHITE);
